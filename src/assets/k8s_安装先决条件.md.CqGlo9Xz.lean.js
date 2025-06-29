@@ -1,0 +1,1 @@
+import{_ as n,c as e,o as a,ag as l}from"./chunks/framework.BgId8OS5.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"k8s/安装先决条件.md","filePath":"k8s/安装先决条件.md"}'),p={name:"k8s/安装先决条件.md"};function r(o,s,t,c,i,d){return a(),e("div",null,s[0]||(s[0]=[l("",17)]))}const m=n(p,[["render",r]]);export{u as __pageData,m as default};
