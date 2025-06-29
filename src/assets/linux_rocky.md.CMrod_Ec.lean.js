@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as l,ag as p}from"./chunks/framework.BgId8OS5.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"linux/rocky.md","filePath":"linux/rocky.md"}'),e={name:"linux/rocky.md"};function r(o,s,c,t,i,y){return l(),a("div",null,s[0]||(s[0]=[p("",20)]))}const u=n(e,[["render",r]]);export{b as __pageData,u as default};
