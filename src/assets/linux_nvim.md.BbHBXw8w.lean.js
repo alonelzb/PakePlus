@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as e,ag as l}from"./chunks/framework.BgId8OS5.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"linux/nvim.md","filePath":"linux/nvim.md"}'),p={name:"linux/nvim.md"};function o(t,s,r,c,i,m){return e(),a("div",null,s[0]||(s[0]=[l("",2)]))}const d=n(p,[["render",o]]);export{u as __pageData,d as default};
