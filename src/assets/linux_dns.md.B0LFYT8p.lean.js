@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as l,ag as p}from"./chunks/framework.BgId8OS5.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"linux/dns.md","filePath":"linux/dns.md"}'),e={name:"linux/dns.md"};function o(r,s,c,t,i,y){return l(),a("div",null,s[0]||(s[0]=[p("",35)]))}const d=n(e,[["render",o]]);export{b as __pageData,d as default};
