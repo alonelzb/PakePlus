@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as l,ag as p}from"./chunks/framework.BgId8OS5.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"k8s/k8s存储.md","filePath":"k8s/k8s存储.md"}'),e={name:"k8s/k8s存储.md"};function o(r,s,c,t,i,y){return l(),a("div",null,s[0]||(s[0]=[p("",15)]))}const u=n(e,[["render",o]]);export{m as __pageData,u as default};
