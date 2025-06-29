@@ -1,0 +1,1 @@
+import{_ as t,c as e,o,ag as r}from"./chunks/framework.BgId8OS5.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"other/os.md","filePath":"other/os.md"}'),s={name:"other/os.md"};function c(i,a,l,n,p,S){return o(),e("div",null,a[0]||(a[0]=[r("",6)]))}const h=t(s,[["render",c]]);export{d as __pageData,h as default};
