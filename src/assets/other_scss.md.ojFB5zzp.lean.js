@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,ag as r}from"./chunks/framework.BgId8OS5.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"other/scss.md","filePath":"other/scss.md"}'),o={name:"other/scss.md"};function i(S,s,n,c,l,d){return t(),e("div",null,s[0]||(s[0]=[r("",10)]))}const u=a(o,[["render",i]]);export{h as __pageData,u as default};
