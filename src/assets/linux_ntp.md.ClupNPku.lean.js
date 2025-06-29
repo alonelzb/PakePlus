@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as e,ag as l}from"./chunks/framework.BgId8OS5.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"linux/ntp.md","filePath":"linux/ntp.md"}'),p={name:"linux/ntp.md"};function t(c,s,o,r,i,d){return e(),a("div",null,s[0]||(s[0]=[l("",17)]))}const y=n(p,[["render",t]]);export{m as __pageData,y as default};
