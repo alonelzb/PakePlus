@@ -1,0 +1,1 @@
+import{_ as s,c as e,o as n,ag as l}from"./chunks/framework.BgId8OS5.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"linux/ssl.md","filePath":"linux/ssl.md"}'),o={name:"linux/ssl.md"};function p(t,a,r,c,i,d){return n(),e("div",null,a[0]||(a[0]=[l("",45)]))}const u=s(o,[["render",p]]);export{m as __pageData,u as default};
