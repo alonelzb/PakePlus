@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as t,ag as n}from"./chunks/framework.BgId8OS5.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tools/yazi.md","filePath":"tools/yazi.md"}'),i={name:"tools/yazi.md"};function o(r,a,l,p,c,d){return t(),s("div",null,a[0]||(a[0]=[n("",3)]))}const u=e(i,[["render",o]]);export{h as __pageData,u as default};
