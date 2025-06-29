@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as l,ag as e}from"./chunks/framework.BgId8OS5.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"promethus/安装.md","filePath":"promethus/安装.md"}'),p={name:"promethus/安装.md"};function o(r,s,t,c,i,y){return l(),a("div",null,s[0]||(s[0]=[e("",7)]))}const b=n(p,[["render",o]]);export{u as __pageData,b as default};
