@@ -1,0 +1,1 @@
+import{_ as s,c as r,o as a,ag as n}from"./chunks/framework.BgId8OS5.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"k8s/k8s-cri.md","filePath":"k8s/k8s-cri.md"}'),o={name:"k8s/k8s-cri.md"};function t(c,e,l,p,i,d){return a(),r("div",null,e[0]||(e[0]=[n("",11)]))}const u=s(o,[["render",t]]);export{h as __pageData,u as default};
