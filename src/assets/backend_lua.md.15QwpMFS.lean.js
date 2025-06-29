@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as l,ag as p}from"./chunks/framework.BgId8OS5.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"backend/lua.md","filePath":"backend/lua.md"}'),e={name:"backend/lua.md"};function o(t,s,r,c,i,u){return l(),a("div",null,s[0]||(s[0]=[p("",29)]))}const A=n(e,[["render",o]]);export{b as __pageData,A as default};
