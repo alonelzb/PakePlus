@@ -1,0 +1,1 @@
+import{_ as a,c as o,o as n,ag as l}from"./chunks/framework.BgId8OS5.js";const B=JSON.parse('{"title":"安装","description":"","frontmatter":{},"headers":[],"relativePath":"tools/wt.md","filePath":"tools/wt.md"}'),p={name:"tools/wt.md"};function t(e,s,r,c,y,A){return n(),o("div",null,s[0]||(s[0]=[l("",37)]))}const u=a(p,[["render",t]]);export{B as __pageData,u as default};
