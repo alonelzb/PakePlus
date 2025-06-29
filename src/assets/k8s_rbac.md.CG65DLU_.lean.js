@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as t,ag as n}from"./chunks/framework.BgId8OS5.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"k8s/rbac.md","filePath":"k8s/rbac.md"}'),r={name:"k8s/rbac.md"};function c(i,e,o,l,p,d){return t(),s("div",null,e[0]||(e[0]=[n("",1)]))}const b=a(r,[["render",c]]);export{m as __pageData,b as default};
