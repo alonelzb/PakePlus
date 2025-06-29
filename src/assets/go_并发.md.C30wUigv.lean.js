@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as l,ag as p}from"./chunks/framework.BgId8OS5.js";const b=JSON.parse('{"title":"2.7 并发","description":"","frontmatter":{},"headers":[],"relativePath":"go/并发.md","filePath":"backend/go/并发.md"}'),e={name:"go/并发.md"};function o(c,s,t,r,i,y){return l(),a("div",null,s[0]||(s[0]=[p("",44)]))}const D=n(e,[["render",o]]);export{b as __pageData,D as default};
