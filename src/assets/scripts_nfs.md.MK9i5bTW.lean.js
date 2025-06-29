@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as l,ag as p}from"./chunks/framework.BgId8OS5.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"scripts/nfs.md","filePath":"scripts/nfs.md"}'),e={name:"scripts/nfs.md"};function o(r,s,t,c,i,y){return l(),a("div",null,s[0]||(s[0]=[p("",1)]))}const m=n(e,[["render",o]]);export{u as __pageData,m as default};
