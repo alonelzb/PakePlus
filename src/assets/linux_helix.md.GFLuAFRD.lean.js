@@ -1,0 +1,1 @@
+import{_ as a,c as n,o as l,ag as p}from"./chunks/framework.BgId8OS5.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"linux/helix.md","filePath":"linux/helix.md"}'),o={name:"linux/helix.md"};function e(r,s,t,c,y,i){return l(),n("div",null,s[0]||(s[0]=[p("",20)]))}const b=a(o,[["render",e]]);export{u as __pageData,b as default};
