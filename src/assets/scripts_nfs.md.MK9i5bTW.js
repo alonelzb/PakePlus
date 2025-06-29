@@ -1,0 +1,38 @@
+import{_ as n,c as a,o as l,ag as p}from"./chunks/framework.BgId8OS5.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"scripts/nfs.md","filePath":"scripts/nfs.md"}'),e={name:"scripts/nfs.md"};function o(r,s,t,c,i,y){return l(),a("div",null,s[0]||(s[0]=[p(`<div class="vp-code-group"><div class="tabs"><input type="radio" name="group-Pl2Mk" id="tab-YZq6WnK" checked><label data-title="服务端配置" for="tab-YZq6WnK">服务端配置</label><input type="radio" name="group-Pl2Mk" id="tab-VMS778z"><label data-title="客户端配置" for="tab-VMS778z">客户端配置</label></div><div class="blocks"><div class="language-bash active line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">bash</span><pre class="shiki material-theme-lighter vp-code" tabindex="0"><code><span class="line"><span style="color:#90A4AE;font-style:italic;">#!/bin/bash</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#90A4AE;font-style:italic;"># 共享目录</span></span>
+<span class="line"><span style="color:#90A4AE;">share_dir</span><span style="color:#39ADB5;">=</span><span style="color:#91B859;">/opt</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#90A4AE;font-style:italic;"># 1</span></span>
+<span class="line"><span style="color:#39ADB5;font-style:italic;">if</span><span style="color:#39ADB5;"> [</span><span style="color:#39ADB5;"> -f</span><span style="color:#90A4AE;"> /etc/redhat-release </span><span style="color:#39ADB5;">];</span><span style="color:#39ADB5;font-style:italic;"> then</span></span>
+<span class="line"><span style="color:#E2931D;">    dnf</span><span style="color:#91B859;"> install</span><span style="color:#91B859;"> -y</span><span style="color:#91B859;"> nfs-utils</span></span>
+<span class="line"><span style="color:#39ADB5;font-style:italic;">else</span></span>
+<span class="line"><span style="color:#E2931D;">    apt</span><span style="color:#91B859;"> install</span><span style="color:#91B859;"> -y</span><span style="color:#91B859;"> nfs-kernel-server</span></span>
+<span class="line"><span style="color:#39ADB5;font-style:italic;">fi</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E2931D;">systemctl</span><span style="color:#91B859;"> enable</span><span style="color:#91B859;"> --now</span><span style="color:#91B859;"> nfs-server</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#90A4AE;font-style:italic;"># 2</span></span>
+<span class="line"><span style="color:#6182B8;">echo</span><span style="color:#39ADB5;"> &quot;</span><span style="color:#90A4AE;">$share_dir</span><span style="color:#91B859;"> *(rw,sync,no_root_squash)</span><span style="color:#39ADB5;">&quot;</span><span style="color:#39ADB5;"> &gt;&gt;</span><span style="color:#91B859;"> /etc/exports</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#90A4AE;font-style:italic;"># 3</span></span>
+<span class="line"><span style="color:#E2931D;">exportfs</span><span style="color:#91B859;"> -rv</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><div class="language-bash line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">bash</span><pre class="shiki material-theme-lighter vp-code" tabindex="0"><code><span class="line"><span style="color:#90A4AE;font-style:italic;">#!/bin/bash</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#90A4AE;">server_ip</span><span style="color:#39ADB5;">=</span><span style="color:#91B859;">10.0.0.11</span></span>
+<span class="line"><span style="color:#90A4AE;">share_dir</span><span style="color:#39ADB5;">=</span><span style="color:#91B859;">/opt</span></span>
+<span class="line"><span style="color:#90A4AE;">mount_dir</span><span style="color:#39ADB5;">=</span><span style="color:#91B859;">/mnt/nfs</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#90A4AE;font-style:italic;"># 创建挂载目录</span></span>
+<span class="line"><span style="color:#E2931D;">mkdir</span><span style="color:#90A4AE;"> $mount_dir</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#39ADB5;font-style:italic;">if</span><span style="color:#39ADB5;"> [</span><span style="color:#39ADB5;"> -f</span><span style="color:#90A4AE;"> /etc/redhat-release </span><span style="color:#39ADB5;">];</span><span style="color:#39ADB5;font-style:italic;"> then</span></span>
+<span class="line"><span style="color:#E2931D;">    dnf</span><span style="color:#91B859;"> install</span><span style="color:#91B859;"> -y</span><span style="color:#91B859;"> nfs-utils</span></span>
+<span class="line"><span style="color:#39ADB5;font-style:italic;">else</span></span>
+<span class="line"><span style="color:#E2931D;">    apt</span><span style="color:#91B859;"> install</span><span style="color:#91B859;"> -y</span><span style="color:#91B859;"> nfs-common</span></span>
+<span class="line"><span style="color:#39ADB5;font-style:italic;">fi</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E2931D;">mount</span><span style="color:#90A4AE;"> $server_ip</span><span style="color:#91B859;">:</span><span style="color:#90A4AE;">$share_dir $mount_dir</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#90A4AE;font-style:italic;"># 挂载永久生效</span></span>
+<span class="line"><span style="color:#90A4AE;font-style:italic;"># vim /etc/fstab</span></span>
+<span class="line"><span style="color:#6182B8;">echo</span><span style="color:#39ADB5;"> &quot;</span><span style="color:#90A4AE;">$server_ip</span><span style="color:#91B859;">:</span><span style="color:#90A4AE;">$share_dir</span><span style="color:#90A4AE;"> $mount_dir</span><span style="color:#91B859;"> nfs default,_netdev 0 0</span><span style="color:#39ADB5;">&quot;</span><span style="color:#39ADB5;"> &gt;&gt;</span><span style="color:#91B859;"> /etc/fstab</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div></div></div>`,1)]))}const m=n(e,[["render",o]]);export{u as __pageData,m as default};
