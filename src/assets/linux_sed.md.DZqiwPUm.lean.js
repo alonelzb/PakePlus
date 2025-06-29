@@ -1,0 +1,1 @@
+import{_ as n,c as a,o as l,ag as p}from"./chunks/framework.BgId8OS5.js";const d=JSON.parse('{"title":"Sed","description":"","frontmatter":{},"headers":[],"relativePath":"linux/sed.md","filePath":"linux/sed.md"}'),e={name:"linux/sed.md"};function o(t,s,c,r,i,y){return l(),a("div",null,s[0]||(s[0]=[p("",14)]))}const u=n(e,[["render",o]]);export{d as __pageData,u as default};
